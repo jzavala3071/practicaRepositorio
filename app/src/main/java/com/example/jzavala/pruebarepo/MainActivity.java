@@ -13,7 +13,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private Button btn_acercaDe, btn_Formulario;
-    private Intent intent;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,15 +38,15 @@ public class MainActivity extends AppCompatActivity {
         btn_acercaDe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /*intent = new Intent(MainActivity.this,);
-                startActivity(intent);*/
+               Intent intent = new Intent(MainActivity.this, AboutUserActivity.class);
+                startActivity(intent);
             }
         });
 
         btn_Formulario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               intent = new Intent(MainActivity.this,RegisterActivity.class);
+               Intent intent = new Intent(MainActivity.this,RegisterActivity.class);
                 startActivity(intent);
             }
         });

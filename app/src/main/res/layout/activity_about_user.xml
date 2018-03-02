@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:background="@color/colorActivityAboutUser"
     tools:context="com.example.jzavala.pruebarepo.AboutUserActivity">
+
     <TextView
         android:id="@+id/title_user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="IA INTERACTIVE"
-        />
+        android:text="IA INTERACTIVE" />
 
     <ImageView
         android:id="@+id/image_user"
@@ -36,7 +36,6 @@
         android:id="@+id/escuela_user"
         android:layout_width="match_parent"
         android:layout_height="18dp"
-
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:text="ITZ"
