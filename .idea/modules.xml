@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProjectZabala.iml" filepath="$PROJECT_DIR$/ProjectZabala.iml" />
+      <module fileurl="file://C:\Users\dbenitez\Desktop\practicaRepositorio\ProjectZabala.iml" filepath="C:\Users\dbenitez\Desktop\practicaRepositorio\ProjectZabala.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\abautista\Desktop\ProjectZabala\app\app.iml" filepath="C:\Users\abautista\Desktop\ProjectZabala\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practicaRepositorio.iml" filepath="$PROJECT_DIR$/practicaRepositorio.iml" />
       <module fileurl="file://C:\Users\abautista\Desktop\ProjectZabala\pruebaRepo.iml" filepath="C:\Users\abautista\Desktop\ProjectZabala\pruebaRepo.iml" />
     </modules>
   </component>
