@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         btn_Formulario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               /* intent = new Intent(MainActivity.this,);
-                startActivity(intent);*/
+               intent = new Intent(MainActivity.this,RegisterActivity.class);
+                startActivity(intent);
             }
         });
 
