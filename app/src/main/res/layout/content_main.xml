@@ -15,6 +15,8 @@
         android:layout_height="wrap_content"
         android:text="Acerca De"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_bias="0.25"
 
@@ -24,10 +26,12 @@
         android:id="@+id/btn_formulario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:text="Formulario"
-        app:layout_constraintVertical_bias="0.75"
-        app:layout_constraintStart_toStartOf="@+id/btn_acercaDe"
-        app:layout_constraintTop_toBottomOf="@+id/btn_acercaDe" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_acercaDe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        />
 
 </android.support.constraint.ConstraintLayout>
