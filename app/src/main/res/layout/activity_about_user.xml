@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActivityAboutUser"
+    tools:context="com.example.jzavala.pruebarepo.AboutUserActivity">
+    <TextView
+        android:id="@+id/title_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="IA INTERACTIVE"
+        />
+
+    <ImageView
+        android:id="@+id/image_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/diego"
+        app:layout_constraintTop_toBottomOf="@+id/title_user" />
+
+    <TextView
+        android:id="@+id/nombre_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Diego Benitez Mendiola"
+        app:layout_constraintBottom_toTopOf="@+id/escuela_user"
+        app:layout_constraintTop_toBottomOf="@+id/image_user" />
+
+    <TextView
+        android:id="@+id/escuela_user"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="ITZ"
+        app:layout_constraintBottom_toTopOf="@+id/about_user"
+        app:layout_constraintTop_toBottomOf="@+id/image_user" />
+
+    <TextView
+        android:id="@+id/about_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="HOLA SOY DIEGO ME GUSTA EL CHOCOLATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_user" />
+
+
+</android.support.constraint.ConstraintLayout>
